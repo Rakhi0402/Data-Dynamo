@@ -7,7 +7,7 @@ Using machine learning models, the system analyzes order details such as price,
 discount, product category, customer information, and region to provide a return
 risk score.
 
-Dataset:We took the dataset from kaggle,it consists of features : order_id,customer_id,product_id,category,price,discount	quantity,payment_method,order_date,delivery_time_days,region,returned(label),total_amount,shipping_cost,profit_margin	customer_age,customer_gender.The dataset contained 34500 rows and 15 columns.
+Dataset:We took the dataset from kaggle,it consists of features : order_id,customer_id,product_id,category,price,discount	quantity,payment_method,order_date,delivery_time_days,region,returned(label),total_amount,shipping_cost,profit_margin	customer_age,customer_gender.The dataset contained 34500 rows and 17 columns.
 
 For pre-processing: As the dataset we chose has a problem of class imbalance we would use SMOTE to balance the classes as there is binary classification,and we would use encoding for different features that has alphabetical values. After the pre-processing we split the dataset into 2 parts: training and testing, the size of training dataset was 52156 and for testing it was 13038.The pre-processed data set is uploaded
 
