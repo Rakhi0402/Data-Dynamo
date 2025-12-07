@@ -12,4 +12,5 @@ Dataset:We took the dataset from kaggle,it consists of features : order_id,custo
 
 For pre-processing: As the dataset we chose has a problem of class imbalance we would use SMOTE to balance the classes as there is binary classification,and we would use encoding for different features that has alphabetical values.
 
-For models: we would be using 4 models: logistic regression,
+For models: we would be using 4 models: logistic regression, XGboost,Neural Network,SVM. We would be using confusion matrix,precision,recall,f1-score and accuracy as your result metrices
+
