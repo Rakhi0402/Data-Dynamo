@@ -7,7 +7,7 @@ Using machine learning models, the system analyzes order details such as price,
 discount, product category, customer information, and region to provide a return
 risk score.
 
-Dataset:We took the dataset from kaggle,it consists of features : order_id,customer_id,product_id,category,price,discount	quantity,payment_method,order_date,delivery_time_days,region,returned(label),total_amount,shipping_cost,profit_margin	customer_age,customer_gender.The dataset contained 34500 rows and 15 columns the link for the dataset is : 
+Dataset:We took the dataset from kaggle,it consists of features : order_id,customer_id,product_id,category,price,discount	quantity,payment_method,order_date,delivery_time_days,region,returned(label),total_amount,shipping_cost,profit_margin	customer_age,customer_gender.The dataset contained 34500 rows and 15 columns.
 
 For pre-processing: As the dataset we chose has a problem of class imbalance we would use SMOTE to balance the classes as there is binary classification,and we would use encoding for different features that has alphabetical values. After the pre-processing we split the dataset into 2 parts: training and testing, the size of training dataset was 52156 and for testing it was 13038.The pre-processed data set is uploaded
 
@@ -17,5 +17,6 @@ Out of all the models we ran XGBoost gave the best accuracy so we used that mode
 
 For UI: Gradio is a Python library that lets us quickly create a simple web interface for our machine-learning model. In this project, we use Gradio to build an interactive UI where users can enter order features in a table and instantly get the predicted return probability from our trained XGBoost model. It helps connect our backend model to a clean, user-friendly frontend without writing any HTML or backend code.
 
+The link for accessing the UI using collab is https://colab.research.google.com/drive/1C1dsVN_uOo5G-uu2fmkwEeYH5PuINL5V?usp=sharing.
 The pynb file for each is uploaded on the github repository.
 
